@@ -1,0 +1,30 @@
+.sectionCard{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex:1;
+    flex-basis: 400px;
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        & h3{
+            color: white;
+            font-size: 18px;
+        }
+        & p {
+            color: var(--softText);
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .sectionCard{
+
+        & img {
+            display: none;
+        }
+    }
+
+}

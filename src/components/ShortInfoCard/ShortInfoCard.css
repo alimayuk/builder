@@ -1,0 +1,16 @@
+.ShortInfoCard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 320px;
+    & h3{
+        color: white;
+        font-size: 27px;
+    }
+    & p{
+        color: var(--softText);
+        font-size: 18px;
+        line-height: 27px;
+    }
+}

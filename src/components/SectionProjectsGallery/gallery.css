@@ -1,0 +1,4 @@
+.projectgallery{
+    display: flex;
+    flex-wrap: wrap;
+}

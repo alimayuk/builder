@@ -1,0 +1,9 @@
+.BlogCardSide{
+    background-color: var(--softBrown);
+    color: white;
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 80px 5px;
+    }
+}

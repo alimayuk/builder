@@ -1,0 +1,35 @@
+.ProjectsComp{
+    background-color: var(--softBrown);
+    .container{
+        max-width: 1024px; 
+       margin: 0 auto;
+       display: flex;
+       padding: 100px 5px;
+       flex-direction: column;
+        gap: 30px;
+        color: white;
+        .hero{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            & h1{
+                font-size: 72px;
+            }
+            & h3{
+                line-height: 30px;
+            }
+            & p{
+                color: var(--softText);
+            }
+        }
+        .projects{
+           
+             display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 10px 5px;
+           
+        }
+    }
+}

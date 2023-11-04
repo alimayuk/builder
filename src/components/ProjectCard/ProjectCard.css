@@ -1,0 +1,33 @@
+.ProjectCard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 0 300px;
+    
+    align-items: flex-start;
+    justify-content: space-between;
+ 
+
+    & img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    & p{
+        color: var(--softText);
+        line-height: 30px;
+    }
+    .cardBtn{
+        background-color: var(--customBlue);
+        color: white;
+        padding: 15px 30px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: all ease .5s;
+        &:hover{
+            background-color: transparent;
+            border: 1px solid var(--customBlue);
+        }
+    }
+}

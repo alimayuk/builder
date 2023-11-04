@@ -1,0 +1,29 @@
+.BlogCard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & p{
+        color: var(--softText);
+    }
+    .desc{
+        line-height: 25px;
+    }
+    & img{
+        width: 100%;
+    }
+
+    .cardBtn{
+        max-width: max-content;
+        background-color: var(--customBlue);
+        color: white;
+        padding: 15px 30px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: all ease .5s;
+        &:hover{
+            background-color: transparent;
+            border: 1px solid var(--customBlue);
+        }
+    }
+}

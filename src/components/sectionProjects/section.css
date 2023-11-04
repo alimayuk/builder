@@ -1,0 +1,22 @@
+.ProjectSection{
+    background-color: var(--softBrown);
+    color: white;
+    .container{
+       max-width: 1024px; 
+       margin: 0 auto;
+       display: flex;
+       padding: 100px 5px;
+       flex-direction: column;
+        gap: 30px;
+
+        & h1{
+            font-size: 40px;
+        }
+
+        & h3{
+            line-height: 40px;
+            font-size: 25px;
+            color: var(--softText );
+        }
+    }
+}

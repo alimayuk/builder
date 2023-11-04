@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+:root{
+    --softBlack:  #0D0D0D;
+    --softBrown:#1A1A1A;
+    --softText:  #acacac;
+    --customBlue: #0971F2;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
